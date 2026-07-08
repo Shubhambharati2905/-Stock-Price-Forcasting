@@ -39,14 +39,7 @@ ts/assets/Unknown-6" />
 
 ### 2.3 ACF / PACF — reading candidate `p` and `q`
 
-On the stationary (differenced) series, the ACF suggests the moving-average order `q` and the PACF suggests the autoregressive order `p`.
-
-<img width="1590" height="490" alt="ACF<img width="1489" height="590" alt="Unknown-5" src="https://github.c<img width="1489" height="590" alt="Unknown-5" src="https://github.com/user-attachments/assets/75cb1081-8644-4549-a65e-5f5ec0c2bf31" />
-<img width="1489" height="590" alt="Unknown-3" src="https://github.com/user-attachments/assets/2e67d622-57d2-4cc6-9155-e82293a9f561" />
-<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/89559aa3-4be0-4012-a363-41832bbbfe0e" />
-<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/46e1eaf2-2d8e-4f5f-b766-284e82eb8b96" />
-<img width="1590" height="490" alt="Unknown" src="https://github.com/user-attachments/assets/a3b34587-d9d1-4fc5-8fd2-415af5952d44" />
-om/user-attachments/assets/544f7069-4283-4687-b4d0-52194c6c279b" />
+On the stationary (differenced) series, the ACF suggests the moving-average order `q` and the PACF suggests the autoregressive order `p`.<img width="1590" height="490" alt="Unknown" src="https://github.com/user-attachments/assets/0dbbc6a3-fe10-4e01-ab90-50f43ad65eaf" />
  and PACF plots" src="https://github.com/user-attachments/assets/Unknown" />
 
 ### 2.4 ARIMA Order Selection (AIC grid search)
