@@ -39,7 +39,9 @@ ts/assets/Unknown-6" />
 
 ### 2.3 ACF / PACF — reading candidate `p` and `q`
 
-On the stationary (differenced) series, the ACF suggests the moving-average order `q` and the PACF suggests the autoregressive order `p`.<img width="1590" height="490" alt="Unknown" src="https://github.com/user-attachments/assets/0dbbc6a3-fe10-4e01-ab90-50f43ad65eaf" />
+On the stationary (differenced) series, the ACF suggests the moving-average order `q` and the PACF suggests the autoregressive order `p`.
+<img width="1590" height="490" alt="Unknown" src="https://github.com/user-attachments/assets/2177a125-0f48-471a-a0e7-b71807cbf032" />
+
  and PACF plots" src="https://github.com/user-attachments/assets/Unknown" />
 
 ### 2.4 ARIMA Order Selection (AIC grid search)
@@ -52,7 +54,8 @@ Forecast one step at a time across the test window. After each step the *actual*
 
 **ARIMA diagnostics** — a zoomed view of the standalone ARIMA forecast, plus the in-sample and out-of-sample residuals it leaves behind (these residuals are exactly what the LSTM tries to model).
 
-<img width="1489" height="590" alt="ARIMA diagnostics" src="<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/975d5e3f-d79e-47bb-ac5c-b5802b6a997a" />" />
+<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/d37aa522-f847-4535-aff7-e440de0c6bbe" />
+
 
 ### 2.6 LSTM on the ARIMA Residuals
 
