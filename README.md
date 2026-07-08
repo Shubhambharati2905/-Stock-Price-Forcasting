@@ -1,3 +1,4 @@
+<img width="1489" height="590" alt="Unknown-3" src="https://github.com/user-attachments/assets/8a8d6ae7-5b2c-4f13-b9f6-459375310774" />
 # AAPL Stock Price Forecasting
 ### A Hybrid ARIMA + LSTM Framework
 
@@ -59,7 +60,7 @@ Forecast one step at a time across the test window. After each step the *actual*
 
 **ARIMA diagnostics** — a zoomed view of the standalone ARIMA forecast, plus the in-sample and out-of-sample residuals it leaves behind (these residuals are exactly what the LSTM tries to model).
 
-<img width="1489" height="590" alt="ARIMA diagnostics" src="https://github.com/user-attachments/assets/Unknown-7" />
+<img width="1489" height="590" alt="ARIMA diagnostics" src="<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/975d5e3f-d79e-47bb-ac5c-b5802b6a997a" />" />
 
 ### 2.6 LSTM on the ARIMA Residuals
 
@@ -69,13 +70,15 @@ The LSTM learns non-linear patterns remaining in the ARIMA residuals. Residuals 
 
 The final forecast is `ARIMA (linear) + LSTM (non-linear correction)`, scored on RMSE, MAE, and MAPE on the held-out test window and benchmarked against the naive baseline.
 
-<img width="1489" height="590" alt="Hybrid forecast vs actual" src="https://github.com/user-attachments/assets/Unknown-3" />
+<img width="1489" height="590" alt="Hybrid forecast vs actual" src="<img width="1489" height="590" alt="Unknown-3" src="https://github.com/user-attachments/assets/8ceb21a3-3028-4029-850b-2d4bfb1ba3b9" />
+" />
 
 ### 2.8 Reality Check — Directional Accuracy & Trading Backtest
 
 Low price error does not guarantee a useful model. This step measures how often the model predicts the correct **direction** (up vs. down relative to the previous day) and simulates a simple long/short strategy: go long when the model predicts an up day, short when it predicts a down day.
 
-<img width="1489" height="590" alt="Equity curve backtest" src="https://github.com/user-attachments/assets/Unknown-5" />
+<img width="1489" height="590" alt="Equity curve backtest" src="https://github.com/user-attachments/<img width="1489" height="590" alt="Unknown-5" src="https://github.com/user-attachments/assets/3b131acf-f123-4d36-a55a-0d917d1168e6" />
+assets/Unknown-5" />
 
 ---
 
