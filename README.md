@@ -34,8 +34,7 @@ Download 10 years of AAPL history and split it chronologically into an 80% train
 
 ARIMA requires a stationary series. An Augmented Dickey-Fuller (ADF) test confirms that a single first-difference (`d = 1`) is enough, and the training series is decomposed into trend, seasonal, and residual components on an approximate annual (252 trading-day) cycle.
 
-<img width="1389" height="1015" alt="Seasonal decomposition" src="https://github.com/user-attachmen<img width="1389" height="1015" alt="Unknown-6" src="https://github.com/user-attachments/assets/b66b60a1-f4ef-446c-a8bd-51b1e8048faf" />
-ts/assets/Unknown-6" />
+<img width="1389" height="1015" alt="Unknown-6" src="https://github.com/user-attachments/assets/b66b60a1-f4ef-446c-a8bd-51b1e8048faf" />
 
 ### 2.3 ACF / PACF — reading candidate `p` and `q`
 
@@ -65,8 +64,7 @@ The LSTM learns non-linear patterns remaining in the ARIMA residuals. Residuals 
 
 The final forecast is `ARIMA (linear) + LSTM (non-linear correction)`, scored on RMSE, MAE, and MAPE on the held-out test window and benchmarked against the naive baseline.
 
-<img width="1489" height="590" alt="Hybrid forecast vs actual" src="<img width="1489" height="590" alt="Unknown-3" src="https://github.com/user-attachments/assets/8ceb21a3-3028-4029-850b-2d4bfb1ba3b9" />
-" />
+<img width="1489" height="590" alt="Unknown-3" src="https://github.com/user-attachments/assets/8ceb21a3-3028-4029-850b-2d4bfb1ba3b9" />
 
 ### 2.8 Reality Check — Directional Accuracy & Trading Backtest
 
