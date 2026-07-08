@@ -53,7 +53,7 @@ Forecast one step at a time across the test window. After each step the *actual*
 
 **ARIMA diagnostics** — a zoomed view of the standalone ARIMA forecast, plus the in-sample and out-of-sample residuals it leaves behind (these residuals are exactly what the LSTM tries to model).
 
-<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/d37aa522-f847-4535-aff7-e440de0c6bbe" />
+<img width="1489" height="590" alt="Unknown-7" src="https://github.com/user-attachments/assets/87d87c8e-a685-408c-9d4e-7389d52f62cc" />
 
 
 ### 2.6 LSTM on the ARIMA Residuals
