@@ -1,4 +1,3 @@
-<img width="1489" height="590" alt="Unknown-3" src="https://github.com/user-attachments/assets/8a8d6ae7-5b2c-4f13-b9f6-459375310774" />
 # AAPL Stock Price Forecasting
 ### A Hybrid ARIMA + LSTM Framework
 
